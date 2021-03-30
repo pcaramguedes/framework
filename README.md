@@ -1,24 +1,17 @@
 # Desafio técnico - Framework
 
 ## Iniciando o projeto - 28/03/2021
+#### Por Paulo Eduardo Caram Guedes
 
 
-
-De acordo com as premissas dadas. Inicie o proejto gerando  um pacote utilizando
-o framework **Spring boot**. No início utilizei o site [Spring](https://start.spring.io) e 
-depois fiz o mesmo procedimento utilizando a IDE STS [SpringTools](https://spring.io/tools).
+De acordo com as premissas dadas. Inicie o proejto gerando  um pacote utilizando o framework **Spring boot**. No início utilizei o site [Spring](https://start.spring.io) e depois fiz o mesmo procedimento utilizando a IDE STS [SpringTools](https://spring.io/tools).
 
 
-1 - Criei um folder de dentro da estrutura src/main/java, chamado **controllers**. 
-Onde ficará os arquivos de recursos referente ao REST. Será criado uma classe 
-para cada serviços que o recurso irá atuar.
+1 - Criei um folder de dentro da estrutura src/main/java, chamado **controllers**. Onde ficará os arquivos de recursos referente ao REST. Será criado uma classe para cada serviços que o recurso irá atuar.
 
-2 - Após ter feito os primeiros testes. Criado o projeto de nome "framewrok"
-no github [Github](https://github.com/pcaramguedes/framework) e feito o primeiro commit.
+2 - Após ter feito os primeiros testes. Criado o projeto de nome "framewrok" no github [Github](https://github.com/pcaramguedes/framework) e feito o primeiro commit.
 
-3 - Para criar as classes de dominio, foi feito uma modelagem do sistema
-básica com intuito de diminuir erros na execução do mesmo. Também criado um folder com o nome
-**dominio** para armazenar os arquivos referente ao dominio.
+3 - Para criar as classes de dominio, foi feito uma modelagem do sistema básica com intuito de diminuir erros na execução do mesmo. Também criado um folder com o nome **dominios** para armazenar os arquivos referente ao dominio.
 
 Segue abaixo as classes de **domínio** que serão criadas:
 
@@ -37,6 +30,23 @@ Segue abaixo os arquivos
 |--------------------------|
 | IndexControllers.class   |
 | DesafioControllers.class |
+
+5 - Criado o folder **services** onde ficarão armazenados os arquivos referente aos serviços. Estes arquivos tem a função de comunicar os arquivos que estão nos repositories. Abaixo segue a listagem dos mesmos.
+
+| Classes - Services      |
+|-------------------------|
+|UsuarioService.class     |
+|PostagemService.class    |
+|ComentariosService.class |
+
+6 - Criado o folder **repositories** onde ficarão armazenados os arquivos referente aos Repositórios. Estes arquivos tem a finalidade de acessar o banco de dados e fazer o controle **(CRUD)**.Abaixo segue a listagem dos mesmos.
+
+| Classes - Repository       |
+|----------------------------|
+|UsuarioRepository.class     |
+|PostagemRepository.class    |
+|ComentariosRepository.class |
+
 
 
 
