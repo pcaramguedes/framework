@@ -1,4 +1,4 @@
-package com.pcaramguedes.desafiotecnico.Controller;
+package com.pcaramguedes.desafiotecnico.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
