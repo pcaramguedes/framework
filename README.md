@@ -1,4 +1,8 @@
-# Desafio Técnico Framework
+# Desafio técnico - Framework
+
+## Iniciando o projeto - 28/03/2021
+
+
 
 De acordo com as premissas dadas. O Inicio do projeto foi gerar um pacote 
 inicial utilizando o starter do Spring Boot.
