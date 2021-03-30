@@ -4,11 +4,10 @@
 
 
 
-De acordo com as premissas dadas. O Inicio do projeto foi gerar um pacote 
-inicial utilizando o framework **Spring boot**.
+De acordo com as premissas dadas. Inicie o proejto gerando  um pacote utilizando
+utilizando o framework **Spring boot**. No início utilizei o site [Spring](https://start.spring.io),
+depois fiz o mesmo procedimento utilizando a IDE STS [SpringTools](https://spring.io/tools).
 
-
-Em primeira mão fiz pelo site e depois fiz usando a IDE STS.
 
 1 - Crieu um folder de dentro da estrutura src/main/java, chamado **Controllers**. 
 Onde ficará os arquivos de recursos referente ao REST. Será criado uma classe 
