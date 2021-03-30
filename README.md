@@ -48,11 +48,14 @@ Segue abaixo os arquivos
 |ComentariosRepository.class |
 
 
-### Diagrama do ecosistema do programas a nível de sistema.
+### Diagrama Ecosistema - Nível da aplicação
+
 
 ![ecosistema](https://user-images.githubusercontent.com/72876705/112988879-ba9e4f80-913a-11eb-889f-f59618127abf.png)
 
 
 ### Modelagem conceitual do Banco de dados
+
+![modelo_conceitual](https://user-images.githubusercontent.com/72876705/112992057-351c9e80-913e-11eb-8bf5-ef40e2de246c.jpg)
 
 
