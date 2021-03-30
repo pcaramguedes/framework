@@ -33,6 +33,7 @@ public class Postagem implements Serializable {
 	@Column(name = "post_data")
 	private Date data;
 	
+	// @Type(type = "org.hibernate.type.BinaryType") - substitui o Lob
 	@Lob  // Necessário informar para Hibernate
 	@Column(name = "post_foto")
 	private byte[] foto;
